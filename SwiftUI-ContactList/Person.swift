@@ -7,8 +7,9 @@
 
 import Foundation
 
-struct Person {
+struct Person: Identifiable {
     
+    let id: String = UUID().uuidString
     let name: String
     let surname: String
     let email: String

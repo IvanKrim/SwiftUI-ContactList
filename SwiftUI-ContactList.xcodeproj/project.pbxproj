@@ -11,6 +11,8 @@
 		0E162ACB2678A00A0063C6E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E162ACA2678A00A0063C6E5 /* ContentView.swift */; };
 		0E162ACD2678A00D0063C6E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E162ACC2678A00D0063C6E5 /* Assets.xcassets */; };
 		0E162AD02678A00D0063C6E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E162ACF2678A00D0063C6E5 /* Preview Assets.xcassets */; };
+		0E162AD82678A09C0063C6E5 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E162AD72678A09C0063C6E5 /* DataManager.swift */; };
+		0E162ADA2678A4420063C6E5 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E162AD92678A4420063C6E5 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		0E162ACC2678A00D0063C6E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E162ACF2678A00D0063C6E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0E162AD12678A00D0063C6E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E162AD72678A09C0063C6E5 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		0E162AD92678A4420063C6E5 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				0E162AC82678A00A0063C6E5 /* SwiftUI_ContactListApp.swift */,
 				0E162ACA2678A00A0063C6E5 /* ContentView.swift */,
+				0E162AD72678A09C0063C6E5 /* DataManager.swift */,
+				0E162AD92678A4420063C6E5 /* Person.swift */,
 				0E162ACC2678A00D0063C6E5 /* Assets.xcassets */,
 				0E162AD12678A00D0063C6E5 /* Info.plist */,
 				0E162ACE2678A00D0063C6E5 /* Preview Content */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E162ACB2678A00A0063C6E5 /* ContentView.swift in Sources */,
+				0E162AD82678A09C0063C6E5 /* DataManager.swift in Sources */,
+				0E162ADA2678A4420063C6E5 /* Person.swift in Sources */,
 				0E162AC92678A00A0063C6E5 /* SwiftUI_ContactListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -13,7 +13,14 @@ struct ContactList: View {
     var body: some View {
         NavigationView {
             List(contactList) { person in
-                Text("\(person.fullName)")
+                NavigationLink(
+                    destination: ContactInfo(
+                        email: person.email,
+                        phone: person.phoneNumber,
+                        fullName: person.fullName
+                    )) {
+                    Text("\(person.fullName)")
+                }
             }
             .navigationBarTitle("Contact List")
         }

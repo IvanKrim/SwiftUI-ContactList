@@ -19,19 +19,8 @@ struct ContactInfo: View {
                 .frame(width: 150, height: 150)
                 .padding()
             
-            HStack{ // сделать отдельным представлением
-                Image(systemName: "phone")
-                    .foregroundColor(.blue)
-                
-                Text("\(phone)")
-            }
-            
-            HStack{
-                Image(systemName: "envelope")
-                    .foregroundColor(.blue)
-                
-                Text("\(email)")
-            }
+            RowConfiguration(content: phone, imageSystemName: "phone")
+            RowConfiguration(content: email, imageSystemName: "envelope")
         }
         .navigationTitle("\(fullName)")
     }
@@ -39,6 +28,12 @@ struct ContactInfo: View {
 
 struct Contact_Previews: PreviewProvider {
     static var previews: some View {
-        ContactInfo(email: "Email", phone: "Phone", fullName: "FullName")
+        ContactInfo(
+            email: "Email",
+            phone: "Phone",
+            fullName: "FullName"
+        )
     }
 }
+
+

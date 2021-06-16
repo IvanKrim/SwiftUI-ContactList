@@ -5,8 +5,6 @@
 //  Created by Kalabishka Ivan on 15.06.2021.
 //
 
-import Foundation
-
 class DataManager {
     
     static let shared = DataManager()
@@ -37,5 +35,4 @@ class DataManager {
         "562880225", "738594072", "825654134", "645898473",
         "432349845", "459477625"
     ]
-  
 }

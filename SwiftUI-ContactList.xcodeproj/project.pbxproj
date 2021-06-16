@@ -17,6 +17,7 @@
 		0E162ADE2678AF1C0063C6E5 /* NumbersScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E162ADD2678AF1C0063C6E5 /* NumbersScreen.swift */; };
 		0E162AE02678BF9F0063C6E5 /* ContactInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E162ADF2678BF9F0063C6E5 /* ContactInfo.swift */; };
 		0E162AE32679E5CB0063C6E5 /* RowConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E162AE22679E5CB0063C6E5 /* RowConfiguration.swift */; };
+		0E20F630267A411D003F0600 /* UserPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E20F62F267A411D003F0600 /* UserPhoto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		0E162ADD2678AF1C0063C6E5 /* NumbersScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersScreen.swift; sourceTree = "<group>"; };
 		0E162ADF2678BF9F0063C6E5 /* ContactInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfo.swift; sourceTree = "<group>"; };
 		0E162AE22679E5CB0063C6E5 /* RowConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowConfiguration.swift; sourceTree = "<group>"; };
+		0E20F62F267A411D003F0600 /* UserPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPhoto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				0E162ACA2678A00A0063C6E5 /* ContentView.swift */,
 				0E162ADB2678AEFF0063C6E5 /* ContactList.swift */,
 				0E162ADF2678BF9F0063C6E5 /* ContactInfo.swift */,
+				0E20F62F267A411D003F0600 /* UserPhoto.swift */,
 				0E162ADD2678AF1C0063C6E5 /* NumbersScreen.swift */,
 				0E162AE22679E5CB0063C6E5 /* RowConfiguration.swift */,
 				0E162AD72678A09C0063C6E5 /* DataManager.swift */,
@@ -161,6 +164,7 @@
 				0E162ACB2678A00A0063C6E5 /* ContentView.swift in Sources */,
 				0E162AD82678A09C0063C6E5 /* DataManager.swift in Sources */,
 				0E162ADA2678A4420063C6E5 /* Person.swift in Sources */,
+				0E20F630267A411D003F0600 /* UserPhoto.swift in Sources */,
 				0E162ADC2678AEFF0063C6E5 /* ContactList.swift in Sources */,
 				0E162AC92678A00A0063C6E5 /* SwiftUI_ContactListApp.swift in Sources */,
 				0E162AE02678BF9F0063C6E5 /* ContactInfo.swift in Sources */,

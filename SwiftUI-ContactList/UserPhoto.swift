@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct UserPhoto: View {
+    
     var body: some View {
         HStack{
             Spacer()
+            
             Image(systemName:"person.fill")
                 .resizable()
                 .frame(
@@ -18,6 +20,7 @@ struct UserPhoto: View {
                     height: UIScreen.main.bounds.width / 3
                 )
                 .padding()
+            
             Spacer()
         }
     }

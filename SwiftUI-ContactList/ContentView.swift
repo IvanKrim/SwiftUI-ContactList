@@ -16,6 +16,7 @@ struct ContentView: View {
                     Image(systemName: "person.crop.circle")
                     Text("Contacts")
                 }
+            
             NumbersScreen()
                 .tabItem {
                     Image(systemName: "phone.circle")

@@ -14,12 +14,9 @@ struct ContactList: View {
         NavigationView {
             List(contactList) { person in
                 NavigationLink(
-                    destination: ContactInfo(
-                        email: person.email,
-                        phone: person.phoneNumber,
-                        fullName: person.fullName
-                    )) {
-                    Text("\(person.fullName)")
+                    destination: ContactInfo(person: person)
+                ) {
+                    Text(person.fullName)
                 }
             }
             .navigationBarTitle("Contact List")

@@ -8,29 +8,27 @@
 import SwiftUI
 
 struct ContactInfo: View {
-    let email: String
-    let phone: String
-    let fullName: String
+    let person: Person
     
     var body: some View {
         Form {
-            Section{
-                UserPhoto()
-                RowConfiguration(content: phone, imageSystemName: "phone")
-                RowConfiguration(content: email, imageSystemName: "envelope")
-            }
+            UserPhoto()
+            RowConfiguration(
+                content: person.phoneNumber,
+                imageSystemName: "phone"
+            )
+            RowConfiguration(
+                content: person.email,
+                imageSystemName: "envelope"
+            )
         }
-        .navigationTitle("\(fullName)")
+        .navigationTitle(person.fullName)
     }
 }
 
 struct Contact_Previews: PreviewProvider {
     static var previews: some View {
-        ContactInfo(
-            email: "Email",
-            phone: "Phone",
-            fullName: "FullName"
-        )
+        ContactInfo(person: Person.getContactList().first!)
     }
 }
 

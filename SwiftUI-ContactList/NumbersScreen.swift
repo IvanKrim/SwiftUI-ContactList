@@ -16,7 +16,7 @@ struct NumbersScreen: View {
                 ForEach(contactList) { person in
                     Section(
                         header: Text("\(person.fullName)")
-                            .textCase(nil)
+                            .textCase(.none)
                     ) {
                         
                         RowConfiguration(

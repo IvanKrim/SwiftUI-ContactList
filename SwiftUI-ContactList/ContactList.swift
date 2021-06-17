@@ -14,11 +14,8 @@ struct ContactList: View {
         NavigationView {
             List(contactList) { person in
                 NavigationLink(
-                    destination: ContactInfo(
-                        email: person.email,
-                        phone: person.phoneNumber,
-                        fullName: person.fullName
-                    )) {
+                    destination: ContactInfo(person: person)
+                ) {
                     Text(person.fullName)
                 }
             }

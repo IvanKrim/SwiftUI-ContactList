@@ -19,7 +19,7 @@ struct ContactList: View {
                         phone: person.phoneNumber,
                         fullName: person.fullName
                     )) {
-                    Text("\(person.fullName)")
+                    Text(person.fullName)
                 }
             }
             .navigationBarTitle("Contact List")

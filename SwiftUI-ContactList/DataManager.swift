@@ -11,7 +11,7 @@ class DataManager {
     
     private init() {}
     
-    var names = [
+    let names = [
         "John", "Aaron", "Tim", "Ted",
         "Steven", "Sharon", "Nicola",
         "Allan", "Bruce", "Carl"

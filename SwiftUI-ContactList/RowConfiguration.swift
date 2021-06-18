@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct RowConfiguration: View {
-    let content: String
+    let contact: String
     let imageSystemName: String
     
     var body: some View {
@@ -16,13 +16,13 @@ struct RowConfiguration: View {
             Image(systemName: imageSystemName)
                 .foregroundColor(.blue)
             
-            Text("\(content)")
+            Text(contact)
         }
     }
 }
 
 struct RowConfiguration_Previews: PreviewProvider {
     static var previews: some View {
-        RowConfiguration(content: "Phone", imageSystemName: "phone")
+        RowConfiguration(contact: "Phone", imageSystemName: "phone")
     }
 }

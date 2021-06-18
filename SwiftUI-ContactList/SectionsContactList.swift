@@ -7,28 +7,25 @@
 
 import SwiftUI
 
-struct NumbersScreen: View {
+struct SectionsContactList: View {
     let contactList: [Person]
     
     var body: some View {
         NavigationView {
             List{
-                ForEach(contactList) { person in
-                    Section(
-                        header: Text("\(person.fullName)")
-                            .textCase(.none)
-                    ) {
-                        
+                ForEach(contactList) { contact in
+                    Section(header: Text(contact.fullName)) {
                         RowConfiguration(
-                            content: person.phoneNumber,
+                            contact: contact.phoneNumber,
                             imageSystemName: "phone"
                         )
                         RowConfiguration(
-                            content: person.email,
+                            contact: contact.email,
                             imageSystemName: "envelope"
                         )
                     }
                 }
+                .textCase(.none)
             }
             .navigationBarTitle("Contact List")
         }
@@ -37,6 +34,6 @@ struct NumbersScreen: View {
 
 struct NumbersScreen_Previews: PreviewProvider {
     static var previews: some View {
-        NumbersScreen(contactList: Person.getContactList())
+        SectionsContactList(contactList: Person.getContactList())
     }
 }

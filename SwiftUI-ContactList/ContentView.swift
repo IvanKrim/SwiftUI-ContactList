@@ -18,7 +18,7 @@ struct ContentView: View {
                     Text("Contacts")
                 }
             
-            NumbersScreen(contactList: contactList)
+            SectionsContactList(contactList: contactList)
                 .tabItem {
                     Image(systemName: "phone.circle")
                     Text("Numbers")

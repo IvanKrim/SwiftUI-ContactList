@@ -14,11 +14,11 @@ struct ContactInfo: View {
         Form {
             UserPhoto()
             RowConfiguration(
-                content: person.phoneNumber,
+                contact: person.phoneNumber,
                 imageSystemName: "phone"
             )
             RowConfiguration(
-                content: person.email,
+                contact: person.email,
                 imageSystemName: "envelope"
             )
         }
